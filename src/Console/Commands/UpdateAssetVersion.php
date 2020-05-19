@@ -1,14 +1,9 @@
 <?php
 
-namespace App\Console\Commands;
+namespace Mhardz\LaravelStaticAssetVersion\Console\Commands;
 
-use App\Mail\BackupDatabase as BackupDatabaseMail;
 use Carbon\Carbon;
 use Illuminate\Console\Command;
-use Illuminate\Http\File;
-use Illuminate\Http\UploadedFile;
-use Illuminate\Support\Facades\Mail;
-use League\Flysystem\Sftp\SftpAdapter;
 
 class UpdateAssetVersion extends Command
 {
