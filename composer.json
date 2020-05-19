@@ -1,0 +1,16 @@
+{
+    "name": "mhardz/laravel-static-asset-version",
+    "description": "A package for laravel for adding a version like parameter on asset url",
+    "authors": [
+        {
+            "name": "Mardy A. dela Cruz",
+            "email": "mardy.codev@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Mhardz\\LaravelStaticAssetVersion\\": "src/"
+        }
+    }
+}
