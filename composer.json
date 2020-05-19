@@ -15,5 +15,15 @@
         "psr-4": {
             "Mhardz\\LaravelStaticAssetVersion\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mhardz\\LaravelStaticAssetVersion\\LaravelStaticAssetVersionServiceProvider"
+            ]
+        },
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
     }
 }
